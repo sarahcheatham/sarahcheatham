@@ -1,33 +1,30 @@
 .App {
   text-align: center;
+  /* background-color: #F7F7FB; */
+}
+/* start SubHeader Component */
+.workcontainer {
+  width: 100%;
+  height: 75px;
+  margin-bottom: 0px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.projectsH1 {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  font-family: quasimoda, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 65px;
+  color: #110c16;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.yellowBar {
+  width: 100%;
+  height: 35px;
+  background-color: rgb(247, 239, 102);
+  position: relative;
+  top: 95px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* end SubHeader Component */

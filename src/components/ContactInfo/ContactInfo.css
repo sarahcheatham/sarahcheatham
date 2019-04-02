@@ -1,0 +1,62 @@
+.contactinfo{
+    display: grid;
+    grid-template-columns: 300px;
+    text-align: left;
+    margin-left: 25px;
+}
+#contactinfoheader{
+    font-family: nobel, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+#email{
+    font-family: nobel, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+#phone{
+    font-family: nobel, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+#resume{
+    font-family: nobel, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+h2 > a {
+    position: relative;
+    color: #223A5E;
+    text-decoration: none;
+}
+  
+h2 > a:hover {
+    color: #223A5E;
+}
+  
+h2 > a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: .5px;
+    bottom: 0;
+    left: 0;
+    background-color: #223A5E;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+h2 > a:hover:before{
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+  
+.linkHeader{
+    font-family: como, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+}
