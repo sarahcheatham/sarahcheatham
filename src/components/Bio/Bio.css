@@ -6,14 +6,14 @@
 #bioImage{
     height: 375px;
     margin-left: 50px;
-    margin-top: 25px;
+    margin-top: 50px;
     border-radius: 2px;
 }
 .bioImageBackground{
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-    height: 425px;
-    width: 65%;
+    height: 475px;
+    width: 80%;
     display: flex;
     background-color: #F7E5DF;
     border-radius: 2px;
@@ -24,9 +24,9 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 40px 30px 30px;
-    margin-top: 125px;
+    margin-top: 100px;
     margin-left: 0%;
-    margin-bottom: 125px;
+    margin-bottom: 50px;
 }
 #name{
     display: flex;
@@ -64,38 +64,6 @@
     justify-content: space-evenly;
     align-items: flex-end;
 }
-#outer-box {
-    /* width: 300px;
-    height: 194px; */
-    display:block;
-    position:relative;
-    
-}
 
-#outer-box #inner-box {
-    background: #C4E9E4;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    top: 0;
-    left: 0;
-    position: absolute;
-    padding: 0;
-    transition: opacity .5s;
-}
-#outer-box:hover #inner-box {
-    opacity: .9;
-    transition: opacity .5s;
-}
 
-/* #inner-box {
-    background: #C4E9E4;
-    height: 100%;
-    width: 100%;
-    opacity: 5%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    padding: 0;
-    transition: opacity .5s;
-} */
+

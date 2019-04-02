@@ -6,7 +6,7 @@ class ProjectHeader extends React.Component{
         return(
             <div className="workcontainer">
                 <div id="yellowBar"></div>
-                <h1 id="projectsH1">resume.</h1>
+                <h1 id="projectsH1">projects.</h1>
             </div>
         );
     }

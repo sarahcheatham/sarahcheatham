@@ -2,27 +2,40 @@
     display: grid;
     grid-template-columns: 300px;
     text-align: left;
-    margin-left: 25px;
+    margin-left: 0px;
+    margin-top: 45px;
 }
 #contactinfoheader{
     font-family: nobel, sans-serif;
     font-style: normal;
     font-weight: 100;
+    font-size: 28px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 #email{
     font-family: nobel, sans-serif;
     font-style: normal;
     font-weight: 100;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 #phone{
     font-family: nobel, sans-serif;
     font-style: normal;
     font-weight: 100;
+    font-size: 20px;
+    margin-top: 0px; 
+    margin-bottom: 0px;
 }
 #resume{
     font-family: nobel, sans-serif;
     font-style: normal;
     font-weight: 100;
+    font-size: 20px;
+    margin-top: 0px; 
+    margin-bottom: 0px;
 }
 h2 > a {
     position: relative;

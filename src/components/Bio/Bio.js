@@ -2,6 +2,7 @@ import React from 'react';
 import Sarah from '../../images/gravatar.JPG';
 import "./Bio.css";
 import Icon from 'react-simple-icons';
+import ContactInfo from "../ContactInfo/ContactInfo";
 
 class Bio extends React.Component{
     render(){
@@ -22,6 +23,7 @@ class Bio extends React.Component{
                     <div id="name">Sarah Cheatham</div>
                     <div id="title">Full Stack JavaScript Web Developer</div>
                     <div id="stack">MERN Stack</div>
+                    <ContactInfo/>
                 </span>
                 <span className="icons">
                     <a href="https://www.linkedin.com/in/sarahcheatham14/">
