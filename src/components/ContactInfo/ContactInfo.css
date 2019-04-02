@@ -1,6 +1,7 @@
 .contactinfo{
     display: grid;
     grid-template-columns: 300px;
+    grid-template-rows: 40px 35px 30px 30px;
     text-align: left;
     margin-left: 0px;
     margin-top: 45px;
@@ -34,17 +35,18 @@
     font-style: normal;
     font-weight: 100;
     font-size: 20px;
-    margin-top: 0px; 
-    margin-bottom: 0px;
+    margin-top: 5px; 
+    padding-bottom: 5px;
 }
 h2 > a {
     position: relative;
-    color: #223A5E;
+    color: #273D51;
+    /* color: #223A5E; */
     text-decoration: none;
 }
   
 h2 > a:hover {
-    color: #223A5E;
+    color: #273D51;
 }
   
 h2 > a:before {
@@ -54,7 +56,7 @@ h2 > a:before {
     height: .5px;
     bottom: 0;
     left: 0;
-    background-color: #223A5E;
+    background-color: #273D51;
     visibility: hidden;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
@@ -67,9 +69,3 @@ h2 > a:hover:before{
     transform: scaleX(1);
 }
   
-.linkHeader{
-    font-family: como, sans-serif;
-    font-style: normal;
-    font-weight: 200;
-    font-size: 18px;
-}
