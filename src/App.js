@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Bio from './components/Bio/Bio';
 import ProjectsHeader from "./components/Projects/ProjectsHeader";
 import Projects from './components/Projects/Projects';
+import WorkHeader from './components/Work/WorkHeader';
+import Work from "./components/Work/Work";
 import './App.css';
 
 class App extends Component {
@@ -11,6 +13,8 @@ class App extends Component {
         <Bio/>
         <ProjectsHeader/>
         <Projects/>
+        <WorkHeader/>
+        <Work/>
       </div>
     );
   }
