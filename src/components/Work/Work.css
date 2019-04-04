@@ -1,34 +1,44 @@
 .work {
     width: 100%;
-    height: 10%;
     margin-bottom: 0px;
+    max-width: 100%;
     box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    z-index: -1;
+    background-color: #E8EAEE;
 }
 #pinkBar{
-    width: 100%;
-    height: 35px;
     background-color: #E2928D;
+    box-sizing: border-box;
+    min-height: 50px;
     position: relative;
-    /* bottom: 50%; */
-    /* bottom: 20%; */
+    overflow-x: hidden;
+    overflow-y: hidden;
+    top: 0px;
+    z-index: 1;
 }
 
 #workH1 {
-    position: absolute;
-    /* bottom: 0%; */
-    top: 279%;
-    right: 5%;
     font-family: quasimoda, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 65px;
     color: #110c16;
-     
+    text-align: right;
+    z-index: 10;
+    position: relative;
+    line-height: 0.6em;
+    pointer-events: none;
+    top: 45px;
+    margin-top: 0px;
+    margin-right: 5%;
 }
+
 .experiences{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 25px;
+    margin-top: 5%;
     padding-bottom: 10%;
 }
 .job-title{
@@ -65,7 +75,7 @@
     font-style: normal;
     font-weight: 100;
     margin-left: 5%;
-    margin-top: 5%;
+    margin-top: 0%;
     font-size: 20px;
     text-align: left;
 }
