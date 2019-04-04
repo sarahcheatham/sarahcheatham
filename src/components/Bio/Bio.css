@@ -29,8 +29,8 @@
     grid-template-columns: 1fr;
     grid-template-rows: 40px 30px 30px;
     margin-top: 30%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-bottom: 5%;
     /* background-color: #E8EAEE; */
 }
@@ -38,8 +38,8 @@
     display: flex;
     font-family: nobel, sans-serif;
     font-style: normal;
-    font-weight: 100;
-    font-size: 32px;
+    font-weight: 200;
+    font-size: 36px;
 }
 
 #title{
@@ -48,6 +48,7 @@
     font-style: normal;
     font-weight: 100;
     font-size: 20px;
+    padding-top: 5%;
 }
 
 #stack{
@@ -56,6 +57,7 @@
     font-style: normal;
     font-weight: 100;
     font-size: 20px;
+    padding-top: 5%;
 }
 .icons{
     grid-column: 3 / 4;
