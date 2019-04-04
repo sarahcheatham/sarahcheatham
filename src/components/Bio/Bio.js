@@ -9,15 +9,13 @@ class Bio extends React.Component{
         return(
             <div className="Bio">
                 <span className="bioImageBackground">
-                    <div id="outerbox">
-                        <div id="innerbox">
+                        {/* <div id="innerbox"> */}
                             <img
                             src={Sarah}
                             alt="Sarah Cheatham"
                             id="bioImage"
                             />
-                        </div>
-                    </div>
+                        {/* </div> */}
                 </span>
                 <span className="bioInfo">
                     <div id="name">Sarah Cheatham</div>
