@@ -3,6 +3,7 @@ import Sarah from '../../images/gravatar.JPG';
 import "./Bio.css";
 import Icon from 'react-simple-icons';
 import ContactInfo from "../ContactInfo/ContactInfo";
+import {Container, Col, Row} from 'reactstrap';
 
 class Bio extends React.Component{
     render(){
