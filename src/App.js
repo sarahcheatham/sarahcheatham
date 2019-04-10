@@ -4,7 +4,7 @@ import ProjectsHeader from "./components/Projects/ProjectsHeader";
 import Projects from './components/Projects/Projects';
 import WorkHeader from './components/Work/WorkHeader';
 import Work from "./components/Work/Work";
-import { Row, Col, Container} from 'reactstrap';
+import { Row, Container} from 'reactstrap';
 import './App.css';
 
 class App extends Component {
