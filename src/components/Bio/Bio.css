@@ -2,33 +2,30 @@
 .Bio{
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: 400px 150px;
     padding-bottom: 0%;
+    /* background-color: #E8EAEE; */
+    background-color: #F7F7FB;
 }
 #bioImage{
-    width: auto;
-    height: 325px;
-    margin: 0 auto;
-    margin-top: 10%;
-    margin-bottom: 5%;
-    /* border-radius: 15px; */
+    display: none;
+}
+.bioImageBackground{
+    display: none;
 }
 .icons{
     grid-column: 1 / 2;
     grid-row: 2 / 3;
-    margin-top: 0px;
-    margin-right: 10%;
-    margin-left: 10%;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;
-    align-items: flex-end;
+    align-self: center;
 }
 .bioInfo{
     grid-column: 1 / 2;
-    grid-row: 3 / 4;
-    margin-top: 7%;
-    margin-left: 10%;
-    margin-right: 10%;
+    grid-row: 1 / 2;
+    margin: 0 auto;
+    margin-top: 10%;
     margin-bottom: 10%;
 }
 #name{
@@ -40,23 +37,63 @@
     font-family: nobel, sans-serif;
     font-style: normal;
     font-weight: 200;
-    font-size: 32px;
+    font-size: 42px;
+    padding-bottom: 10%;
 }
 #title{
     display: flex;
     font-family: nobel, sans-serif;
     font-style: normal;
     font-weight: 100;
-    font-size: 20px;
-    padding-top: 3%;
+    font-size: 22px;
+    padding-bottom: 5%;
 }
 #stack{
     display: flex;
     font-family: nobel, sans-serif;
     font-style: normal;
     font-weight: 100;
-    font-size: 18px;
-    padding-top: 1%;
+    font-size: 20px;
+}
+.contactinfo{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 40px 35px 30px 30px;
+    text-align: left;
+    margin-left: 0px;
+    margin-top: 15%;
+}
+#contactinfoheader{
+    font-family: nobel, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 28px;
+    margin-top: 0px;
+    margin-bottom: 5%;
+}
+#email{
+    font-family: nobel, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 5%;
+}
+#phone{
+    font-family: nobel, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: 0px; 
+    margin-bottom: 5%;
+}
+#resume{
+    font-family: nobel, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: 5px; 
+    margin-bottom: 5%;
 }
 
 /* Small and up (Landscape Phones) */
@@ -64,52 +101,55 @@
     .Bio{
         display: grid;
         grid-template-columns: 1fr;
+        grid-template-rows: 300px 200px 200px;
         padding-bottom: 0%;
         padding-top: 5%;
     }
     #bioImage{
-        height: 400px;
+        display: none;
+        /* height: 400px; */
+        /* visibility: hidden; */
         /* padding-bottom: 5%; */
     }
     .bioImageBackground{
-        grid-column: 1 / 2;
+        display: none;
+        /* visibility: hidden; */
+        /* grid-column: 1 / 2;
         grid-row: 1 / 2;
         max-width: 100%;
         padding-left: 5%;
         padding-right: 5%;
-        margin: 0 auto;
+        margin: 0 auto; */
         /* width: 100%; */
-        background-color: #F7E8C9;
+        /* background-color: #F7E8C9; */
         /* border-radius: 15px; */
     }
     .icons{
         grid-column: 1 / 2;
-        grid-row: 2 / 3;
-        margin-top: 5%;
+        grid-row: 3 / 4;
+        /* margin-top: 5%;
         margin-right: 10%;
-        margin-left: 10%;
-        display: flex;
+        margin-left: 10%; */
+        /* display: flex;
         flex-direction: row-reverse;
         justify-content: space-evenly;
-        align-items: flex-end;
+        align-items: flex-end; */
     }
     .bioInfo{
         grid-column: 1 / 2;
-        grid-row: 3 / 4;
+        grid-row: 1 / 2;
+        margin: 0 auto;
         margin-top: 10%;
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-bottom: 10%;
     }
     #name{
-        font-size: 36px;
+        font-size: 48px;
     }
     #title{
-        font-size: 24px;
+        font-size: 28px;
         padding-top: 3%;
     }
     #stack{
-        font-size: 20px;
+        font-size: 22px;
         padding-top: 2%;
     }
 }
@@ -123,6 +163,7 @@
         padding-bottom: 0%;
     }
     #bioImage{
+        display: initial;
         width: auto;
         height: 300px;
         margin-top: 10%;
@@ -191,6 +232,7 @@
         border-radius: 0px;
     }
     #bioImage{
+        display: initial;
         width: auto;
         height: 350px;
         margin-top: 10%;
@@ -237,6 +279,7 @@
         border-radius: 0px;
     }
     #bioImage{
+        display: initial;
         width: auto;
         height: 400px;
         margin-top: 10%;

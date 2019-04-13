@@ -1,5 +1,6 @@
 import React from 'react';
 import "./ContactInfo.css";
+import "../Bio/Bio.css";
 import resume from '../../SarahCheatham.pdf';
 
 class ContactInfo extends React.Component{

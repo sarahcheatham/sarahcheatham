@@ -1,16 +1,15 @@
 .App {
   text-align: center;
   background-color: #F7F7FB;
-  /* background-color: #F7F7FB; */
 }
 /* start SubHeader Component */
-.workcontainer {
+/* .workcontainer {
   width: 100%;
   height: 75px;
   margin-bottom: 0px;
-}
+} */
 
-.projectsH1 {
+/* .projectsH1 {
   position: absolute;
   top: 50px;
   left: 20px;
@@ -19,13 +18,13 @@
   font-weight: 400;
   font-size: 65px;
   color: #110c16;
-}
+} */
 
-.yellowBar {
+/* .yellowBar {
   width: 100%;
   height: 35px;
   background-color: rgb(247, 239, 102);
   position: relative;
   top: 95px;
-}
+} */
 /* end SubHeader Component */
