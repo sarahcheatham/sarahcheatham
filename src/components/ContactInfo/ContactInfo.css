@@ -1,12 +1,14 @@
 h2 > a {
     position: relative;
-    color: #273D51;
+    color: #3D8B7D;
+    /* color: #273D51; */
     /* color: #223A5E; */
     text-decoration: none;
 }
   
 h2 > a:hover {
-    color: #273D51;
+    /* color: #273D51; */
+    color: #019098;
 }
   
 h2 > a:before {
@@ -16,7 +18,8 @@ h2 > a:before {
     height: .5px;
     bottom: 0;
     left: 0;
-    background-color: #273D51;
+    background-color: #019098;
+    /* background-color: #273D51; */
     visibility: hidden;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
