@@ -2,10 +2,10 @@
 .Bio{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 400px 150px;
+    grid-template-rows: 350px 150px;
     padding-bottom: 0%;
     background-color: #FBF6F6;
-    /* background-color: #F7F7FB; */
+    border-top: solid 50px #F9D1A0;
 }
 #bioImage{
     display: none;
@@ -14,6 +14,7 @@
     display: none;
 }
 .icons{
+    margin-top: 5%;
     grid-column: 1 / 2;
     grid-row: 2 / 3;
     display: flex;
@@ -31,27 +32,14 @@
 }
 #name{
     display: flex;
-    /* font-family: 'Futura'; */
-    /* color: #fff; */
-    /* color: #2D2C2B; */
-    color: #1E3D69;
-    text-shadow: 0 0 5px #FAF5E9, 0 0 10px #FAF5E9, 0 0 20px #DCE466, 0 0 30px #DCE466, 0 0 40px #DCE466, 0 0 55px #DCE466, 0 0 75px #DCE466;
+    color: #6D7172;
     /* text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080; */
     text-align: center;
-    /* font-family: nobel, sans-serif;
+    font-family: gill-sans-nova-inline, sans-serif;
     font-style: normal;
-    font-weight: 200; */
-    /* font-family: granville, serif;
-    font-style: normal;
-    font-weight: 300; */
-    /* font-family: gill-sans-nova-inline, sans-serif;
-    font-style: normal;
-    font-weight: 300; */
-    font-family: gill-sans-nova, sans-serif;
-    font-weight: 900;
-    font-style: normal;
-    font-size: 42px;
-    padding-bottom: 10%;
+    font-weight: 300;
+    font-size: 36px;
+    padding-bottom: 5%;
 }
 #title{
     display: flex;
@@ -66,7 +54,7 @@
     font-family: nobel, sans-serif;
     font-style: normal;
     font-weight: 100;
-    font-size: 20px;
+    font-size: 22px;
 }
 .contactinfo{
     display: grid;
@@ -80,7 +68,7 @@
     font-family: nobel, sans-serif;
     font-style: normal;
     font-weight: 100;
-    font-size: 28px;
+    font-size: 24px;
     margin-top: 0px;
     margin-bottom: 5%;
 }
@@ -114,43 +102,24 @@
     .Bio{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 300px 125px 100px;
+        grid-template-rows: 300px 125px;
         padding-bottom: 0%;
-        padding-top: 5%;
     }
     #bioImage{
         display: none;
-        /* height: 400px; */
-        /* visibility: hidden; */
-        /* padding-bottom: 5%; */
     }
     .bioImageBackground{
         display: none;
-        /* visibility: hidden; */
-        /* grid-column: 1 / 2;
-        grid-row: 1 / 2;
-        max-width: 100%;
-        padding-left: 5%;
-        padding-right: 5%;
-        margin: 0 auto; */
-        /* width: 100%; */
-        /* background-color: #F7E8C9; */
-        /* border-radius: 15px; */
     }
     .icons{
         grid-column: 1 / 2;
         grid-row: 3 / 4;
-        /* display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: flex-end; */
-        /* margin-top: 5%;
-        margin-right: 10%;
-        margin-left: 10%; */
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-evenly;
         align-items: flex-end;
+        margin-top: 0%;
+        margin-bottom: 2%;
     }
     .bioInfo{
         grid-column: 1 / 2;
@@ -159,7 +128,8 @@
         margin-top: 5%;
     }
     #name{
-        font-size: 36px;
+        font-size: 42px;
+        padding-bottom: 0%;
     }
     #title{
         font-size: 24px;
@@ -167,7 +137,46 @@
     }
     #stack{
         font-size: 22px;
-        padding-top: 2%;
+    }
+    .contactinfo{
+        display: grid;
+        grid-template-columns: 300px;
+        grid-template-rows: 40px 35px 30px 30px;
+        text-align: left;
+        margin-left: 0px;
+        margin-top: 15%;
+    }
+    #contactinfoheader{
+        font-family: nobel, sans-serif;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 24px;
+        margin-top: 0px;
+        margin-bottom: 5%;
+    }
+    #email{
+        font-family: nobel, sans-serif;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 22px;
+        margin-top: 0px;
+        margin-bottom: 5%;
+    }
+    #phone{
+        font-family: nobel, sans-serif;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 22px;
+        margin-top: 0px; 
+        margin-bottom: 5%;
+    }
+    #resume{
+        font-family: nobel, sans-serif;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 22px;
+        margin-top: 5px; 
+        margin-bottom: 5%;
     }
 }
 
@@ -175,7 +184,7 @@
 @media (min-width: 768px) {
     .Bio{
         display: grid;
-        grid-template-columns: 2fr 1fr 1fr;
+        grid-template-columns: 2fr 2fr 1fr;
         grid-template-rows: 1fr;
         padding-bottom: 0%;
     }
@@ -189,17 +198,15 @@
     .bioImageBackground{
         grid-column: 1 / 2;
         grid-row: 1 / 2;
+        display: flex;
+        align-self: center;
         max-height: 38vh;
-        margin-left: 10%;
-        margin-right: 10%;
         border-radius: 5px;
         background-color: #FBF6F6;
-        /* background-color: #F3E4DF; */
-        /* background-color: #340763; */
-        /* background-color: #019098; */
         display: flex;
         justify-content: center;
         align-self: center;
+        margin-top: 8%;
     }
     .bioInfo{
         grid-column: 2 / 3;
@@ -208,22 +215,23 @@
         grid-template-columns: 1fr;
         grid-template-rows: 40px 30px 30px;
         margin-top: 5%;
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
         margin-bottom: 5%;
     }
     #name{
-        font-size: 36px;
+        padding-top: 5%;
+        font-size: 32px;
     }
     
     #title{
         font-size: 20px;
-        /* padding-top: 5%; */
+        padding-top: 10%;
     }
     
     #stack{
         font-size: 20px;
-        /* padding-top: 5%; */
+        padding-top: 10%;
     }
     .icons{
         grid-column: 3 / 4;
@@ -240,53 +248,47 @@
 
 /* Large and up (Desktops) */
 @media (min-width: 992px) {
+    .bioInfo{
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 50px 40px 40px;
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+    }
     .bioImageBackground{
-        /* max-width: 90%;
-        min-height: 375px;
-        max-height: auto; */
         max-height: 45vh;
         margin-left: 10%;
         margin-right: 10%;
         border-radius: 5px;
-        /* margin: 0 auto;
-        margin-left: 8%;
-        padding-bottom: 7%;
-        border-radius: 0px; */
+        margin-top: 12%;
     }
     #bioImage{
-        /* display: initial;
-        width: auto;
-        height: 350px;
-        margin-top: 10%;
-        margin-bottom: 10%;
-        padding-top: 5%;
-        border-top-left-radius: 0px;
-        border-top-right-radius: 0px;
-        border: 1px solid #BCBEBF; */
-        /* display: initial; */
         width: auto;
         max-height: 45vh;
         opacity: 0.9;
         border-radius: 5px;
     }
     .bioInfo{
-        margin-left: 0 auto;
-        margin-top: 20%;
-        
+        margin: 0 auto;
+        margin-top: 8%;  
     }
     #name{
-        /* font-size: 48px; */
-        font-size: 32px;
+        color: #6D7172;
+        font-size: 40px;
     }
     
     #title{
-        font-size: 22px;
-        padding-top: 10%;
+        font-size: 24px;
+        padding-top: 8%;
     }
     
     #stack{
-        font-size: 22px;
-        padding-top: 10%;
+        font-size: 24px;
+        padding-top: 8%;
     }
     .icons{
         grid-column: 3 / 4;
@@ -298,29 +300,18 @@
         justify-content: space-evenly; 
         align-items: flex-end; 
     }
+    .contactinfo{
+        margin-top: 15%;
+    }
+    .icons{
+        margin-top: 15%;
+    }
 }
 
 /* Extra Large and up (Wide Screen Desktops) */
 @media (min-width: 1200px) {
-    .bioImageBackground{
-        /* max-width: 90%;
-        min-height: 500px;
-        max-height: 475px;
-        margin: 0 auto;
-        margin-left: 8%;
-        border-radius: 0px; */
-    }
-    #bioImage{
-        /* display: initial;
-        width: auto;
-        height: 400px;
-        margin-top: 10%;
-        margin-bottom: 10%;
-        border-top-left-radius: 0px;
-        border-top-right-radius: 0px; */
-    }
     .bioInfo{
-        margin-left: 0 auto;
+        margin: 0 auto;
         
     }
     #name{
