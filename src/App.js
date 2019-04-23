@@ -4,6 +4,8 @@ import ProjectsHeader from "./components/Projects/ProjectsHeader";
 import Projects from './components/Projects/Projects';
 import WorkHeader from './components/Work/WorkHeader';
 import Work from "./components/Work/Work";
+import EducationHeader from './components/Education/EducationHeader';
+import Education from './components/Education/Education';
 import { Row, Container} from 'reactstrap';
 import './App.css';
 
@@ -26,6 +28,12 @@ class App extends Component {
         </Row>
         <Row>
           <Work/>
+        </Row>
+        <Row>
+          <EducationHeader/>
+        </Row>
+        <Row>
+          <Education/>
         </Row>
       </Container>
       </div>

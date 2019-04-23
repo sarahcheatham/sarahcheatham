@@ -1,0 +1,35 @@
+.educationContainer {
+    width: 100%;
+    margin-bottom: 0px;
+    max-width: 100%;
+    overflow: hidden;
+    z-index: -1;
+    background-color: #FBF6F6;
+    box-sizing: border-box;
+}
+#educationH1 {
+    color: #2D2C2B;
+    text-align: right;
+    z-index: 10;
+    position: relative;
+    line-height: 0.6em;
+    pointer-events: none;
+    top: 0px;
+    font-family: quasimoda, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65px;
+    margin-top: 0px;
+    margin-right: 5%;
+    margin-bottom: 0px;
+    padding-top: 5%;
+}
+#yellowBar {
+    background-color: #E2928D;
+    box-sizing: border-box;
+    min-height: 50px;
+    position: relative;
+    overflow: hidden;
+    top: 0px;
+    z-index: 1;
+}

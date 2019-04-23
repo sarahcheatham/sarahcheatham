@@ -5,7 +5,7 @@
     grid-template-rows: 350px 150px;
     padding-bottom: 0%;
     background-color: #FBF6F6;
-    border-top: solid 50px #F9D1A0;
+    /* border-top: solid 50px #F9D1A0; */
 }
 #bioImage{
     display: none;
