@@ -7,7 +7,7 @@ class ContactInfo extends React.Component{
     render(){
         return (
             <div className="contactinfo">
-                <h1 id="contactinfoheader">Contact Info:</h1>
+                <h1 id="contactinfoheader">Contact Info</h1>
                 <h2 id="resume">
                     <a href={resume}>PDF Resume</a>
                     {" "}

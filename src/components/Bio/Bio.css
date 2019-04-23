@@ -25,7 +25,10 @@
 .bioInfo{
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10%;
     margin-top: 10%;
     margin-bottom: 10%;
     color: #2D2C2B;
@@ -34,23 +37,20 @@
     display: flex;
     color: #6D7172;
     /* text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080; */
-    text-align: center;
-    font-family: gill-sans-nova-inline, sans-serif;
-    font-style: normal;
+    font-family: voltage, sans-serif;
     font-weight: 300;
-    font-size: 36px;
+    font-style: normal;
+    font-size: 40px;
     padding-bottom: 5%;
 }
 #title{
-    display: flex;
     font-family: nobel, sans-serif;
     font-style: normal;
     font-weight: 100;
     font-size: 22px;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
 }
 #stack{
-    display: flex;
     font-family: nobel, sans-serif;
     font-style: normal;
     font-weight: 100;
@@ -62,15 +62,22 @@
     grid-template-rows: 40px 35px 30px 30px;
     text-align: left;
     margin-left: 0px;
-    margin-top: 15%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 #contactinfoheader{
     font-family: nobel, sans-serif;
-    font-style: normal;
-    font-weight: 100;
+    font-weight: 300;
+    font-style: italic;
     font-size: 24px;
+    color: #6D7172;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #FC926A;
+    /* text-decoration-color: #7FBAB7; */
     margin-top: 0px;
     margin-bottom: 5%;
+    padding-bottom: 2%;
 }
 #email{
     font-family: nobel, sans-serif;
@@ -78,7 +85,7 @@
     font-weight: 100;
     font-size: 20px;
     margin-top: 0px;
-    margin-bottom: 5%;
+    padding-bottom: 5%;
 }
 #phone{
     font-family: nobel, sans-serif;
@@ -86,15 +93,15 @@
     font-weight: 100;
     font-size: 20px;
     margin-top: 0px; 
-    margin-bottom: 5%;
+    padding-bottom: 5%;
 }
 #resume{
     font-family: nobel, sans-serif;
     font-style: normal;
     font-weight: 100;
     font-size: 20px;
-    margin-top: 5px; 
-    margin-bottom: 5%;
+    margin-top: 5%; 
+    padding-bottom: 5%;
 }
 
 /* Small and up (Landscape Phones) */
@@ -141,16 +148,16 @@
     .contactinfo{
         display: grid;
         grid-template-columns: 300px;
-        grid-template-rows: 40px 35px 30px 30px;
+        grid-template-rows: 40px 45px 35px 35px;
         text-align: left;
         margin-left: 0px;
         margin-top: 15%;
     }
     #contactinfoheader{
-        font-family: nobel, sans-serif;
+        /* font-family: nobel, sans-serif;
         font-style: normal;
-        font-weight: 100;
-        font-size: 24px;
+        font-weight: 100; */
+        font-size: 32px;
         margin-top: 0px;
         margin-bottom: 5%;
     }
@@ -159,7 +166,7 @@
         font-style: normal;
         font-weight: 100;
         font-size: 22px;
-        margin-top: 0px;
+        margin-top: 2%;
         margin-bottom: 5%;
     }
     #phone{
@@ -167,7 +174,7 @@
         font-style: normal;
         font-weight: 100;
         font-size: 22px;
-        margin-top: 0px; 
+        margin-top: 2%; 
         margin-bottom: 5%;
     }
     #resume{
@@ -175,7 +182,7 @@
         font-style: normal;
         font-weight: 100;
         font-size: 22px;
-        margin-top: 5px; 
+        margin-top: 5%; 
         margin-bottom: 5%;
     }
 }
@@ -211,27 +218,28 @@
     .bioInfo{
         grid-column: 2 / 3;
         grid-row: 1 / 2;
-        display: grid;
+        /* display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 40px 30px 30px;
+        grid-template-rows: 40px 30px 30px; */
         margin-top: 5%;
         margin-left: 5%;
         margin-right: 5%;
         margin-bottom: 5%;
     }
     #name{
-        padding-top: 5%;
-        font-size: 32px;
+        padding-top: 10%;
+        padding-bottom: 1%;
+        font-size: 42px;
     }
     
     #title{
         font-size: 20px;
-        padding-top: 10%;
+        padding-top: 0%;
     }
     
     #stack{
         font-size: 20px;
-        padding-top: 10%;
+        padding-top: 0%;
     }
     .icons{
         grid-column: 3 / 4;
@@ -251,9 +259,9 @@
     .bioInfo{
         grid-column: 2 / 3;
         grid-row: 1 / 2;
-        display: grid;
+        /* display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 50px 40px 40px;
+        grid-template-rows: 50px 40px 40px; */
         margin-top: 5%;
         margin-left: 5%;
         margin-right: 5%;
@@ -274,21 +282,22 @@
     }
     .bioInfo{
         margin: 0 auto;
-        margin-top: 8%;  
+        margin-top: 0%;  
     }
     #name{
+        margin-top: 5%;
         color: #6D7172;
         font-size: 40px;
     }
     
     #title{
         font-size: 24px;
-        padding-top: 8%;
+        margin-top: 0%;
     }
     
     #stack{
         font-size: 24px;
-        padding-top: 8%;
+        margin-top: 0%;
     }
     .icons{
         grid-column: 3 / 4;
@@ -301,7 +310,7 @@
         align-items: flex-end; 
     }
     .contactinfo{
-        margin-top: 15%;
+        margin-top: 10%;
     }
     .icons{
         margin-top: 15%;

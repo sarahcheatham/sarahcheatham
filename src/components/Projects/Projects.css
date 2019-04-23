@@ -19,7 +19,7 @@
     font-family: quasimoda, sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 65px;
+    font-size: 48px;
     margin-top: 0px;
     margin-right: 5%;
     margin-bottom: 0px;
@@ -189,6 +189,9 @@ code{
     #jscheatsimg{
         height: 39vh;
     }
+    #projectsH1{
+        font-size: 65px;
+    }
 }
 
 /* Medium and up (Tablets) */
@@ -225,6 +228,9 @@ code{
     }
     .todolistDesc{
         font-size: 20px;
+    }
+    #projectsH1{
+        font-size: 65px;
     }
 }
 
