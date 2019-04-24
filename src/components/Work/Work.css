@@ -172,9 +172,9 @@
     }
     .job-title{
         grid-column: 1 / 2;
-        font-family: nobel, sans-serif;
+        /* font-family: nobel, sans-serif;
         font-style: normal;
-        font-weight: 300;
+        font-weight: 300; */
         font-size: 26px;
         text-align: left;
         margin-left: 10%;
@@ -182,17 +182,17 @@
         margin-bottom: 5%;   
     }
     .work-italics{
-        font-family: nobel, sans-serif;
+        /* font-family: nobel, sans-serif;
         font-style: normal;
-        font-weight: 200;
-        font-style: italic;
+        font-weight: 200; */
+        /* font-style: italic; */
         font-size: 24px;
     }
     .work-dates{
         grid-column: 2 / 3;
-        font-family: nobel, sans-serif;
+        /* font-family: nobel, sans-serif;
         font-style: normal;
-        font-weight: 300;
+        font-weight: 300; */
         font-size: 28px;
         margin-top: 5%; 
         text-align: right;
@@ -200,9 +200,9 @@
     }
     .desc{
         grid-column: 1 / 3;
-        font-family: nobel, sans-serif;
+        /* font-family: nobel, sans-serif;
         font-style: normal;
-        font-weight: 100;
+        font-weight: 100; */
         margin-left: 5%;
         margin-top: 0%;
         font-size: 20px;
