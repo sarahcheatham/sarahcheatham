@@ -13,16 +13,6 @@
 .bioImageBackground{
     display: none;
 }
-.icons{
-    margin-top: 5%;
-    margin-bottom: 10%;
-    grid-column: 1 / 2;
-    grid-row: 3 / 4;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
-    align-self: center;
-}
 .bioInfo{
     grid-column: 1 / 2;
     grid-row: 1 / 2;
@@ -35,7 +25,7 @@
     color: #2D2C2B;
 }
 #name{
-    display: flex;
+    /* display: flex; */
     color: #6D7172;
     /* text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080; */
     font-family: voltage, sans-serif;
@@ -106,44 +96,34 @@
     margin-top: 3%; 
     padding-bottom: 5%;
 }
+.icons{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-self: center;
+}
 
 /* Small and up (Landscape Phones) */
 @media (min-width: 576px) {
     .Bio{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 300px 125px;
-        padding-bottom: 0%;
-    }
-    #bioImage{
-        display: none;
-    }
-    .bioImageBackground{
-        display: none;
-    }
-    .icons{
-        grid-column: 1 / 2;
-        grid-row: 3 / 4;
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-evenly;
-        align-items: flex-end;
-        margin-top: 0%;
-        margin-bottom: 2%;
+        grid-template-rows: 45% 35% 20%;
     }
     .bioInfo{
-        grid-column: 1 / 2;
-        grid-row: 1 / 2;
         margin: 0 auto;
         margin-top: 5%;
     }
     #name{
-        font-size: 42px;
-        padding-bottom: 0%;
+        font-size: 52px;
+        margin-bottom: 2%;
     }
     #title{
         font-size: 24px;
-        padding-top: 2%;
     }
     #stack{
         font-size: 22px;
@@ -151,42 +131,31 @@
     .contactinfo{
         display: grid;
         grid-template-columns: 300px;
-        grid-template-rows: 40px 45px 35px 35px;
-        text-align: left;
-        margin-left: 0px;
-        margin-top: 15%;
+        grid-template-rows: 25% 20% 20% 20%;
     }
     #contactinfoheader{
-        /* font-family: nobel, sans-serif;
-        font-style: normal;
-        font-weight: 100; */
         font-size: 32px;
         margin-top: 0px;
         margin-bottom: 5%;
     }
     #email{
-        font-family: nobel, sans-serif;
-        font-style: normal;
-        font-weight: 100;
         font-size: 22px;
         margin-top: 2%;
         margin-bottom: 5%;
     }
     #phone{
-        font-family: nobel, sans-serif;
-        font-style: normal;
-        font-weight: 100;
         font-size: 22px;
         margin-top: 2%; 
         margin-bottom: 5%;
     }
     #resume{
-        font-family: nobel, sans-serif;
-        font-style: normal;
-        font-weight: 100;
         font-size: 22px;
         margin-top: 5%; 
         margin-bottom: 5%;
+    }
+    .icons{
+        margin-top: 5%;
+        margin-bottom: 0%;
     }
 }
 
@@ -194,7 +163,7 @@
 @media (min-width: 768px) {
     .Bio{
         display: grid;
-        grid-template-columns: 2fr 2fr 1fr;
+        grid-template-columns: 40% 45% 15%;
         grid-template-rows: 1fr;
         padding-bottom: 0%;
     }
@@ -209,88 +178,79 @@
         grid-column: 1 / 2;
         grid-row: 1 / 2;
         display: flex;
-        align-self: center;
+        align-self: flex-start;
+        justify-content: center;
         max-height: 38vh;
         border-radius: 5px;
         background-color: #FBF6F6;
-        display: flex;
-        justify-content: center;
-        align-self: center;
-        margin-top: 8%;
+        margin-top: 20%;
     }
     .bioInfo{
         grid-column: 2 / 3;
         grid-row: 1 / 2;
-        /* display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 40px 30px 30px; */
-        margin-top: 5%;
+        margin-top: 10%;
         margin-left: 5%;
         margin-right: 5%;
         margin-bottom: 5%;
     }
     #name{
-        padding-top: 10%;
-        padding-bottom: 1%;
-        font-size: 42px;
+        margin-bottom: 0%;
+        font-size: 48px;
     }
     
     #title{
-        font-size: 20px;
-        padding-top: 0%;
+        font-size: 22px;
+        margin-top: 0%;
     }
     
     #stack{
-        font-size: 20px;
-        padding-top: 0%;
+        font-size: 22px;
+        margin-top: 0%;
     }
     .icons{
         grid-column: 3 / 4;
         grid-row: 1 / 2;
-        margin-top: 0px;
+        margin-top: 0%;
         margin-right: 25%;
         height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        align-items: flex-end;
+        align-self: flex-end;
+    }
+    .contactinfo{
+        grid-template-rows: 25% 25% 25% 25%;
+        margin-top: 15%;
+    }
+    #resume{
+        padding-bottom: 0%;
+        margin-bottom: 5%;
     }
 }
 
 /* Large and up (Desktops) */
 @media (min-width: 992px) {
     .bioInfo{
-        grid-column: 2 / 3;
-        grid-row: 1 / 2;
-        /* display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 50px 40px 40px; */
-        margin-top: 5%;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-bottom: 5%;
+        margin-top: 10%;
+       
     }
     .bioImageBackground{
         max-height: 45vh;
         margin-left: 10%;
         margin-right: 10%;
         border-radius: 5px;
-        margin-top: 12%;
+        margin-top: 15%;
     }
     #bioImage{
         width: auto;
-        max-height: 45vh;
+        height: 45vh;
         opacity: 0.9;
         border-radius: 5px;
     }
-    .bioInfo{
-        margin: 0 auto;
-        margin-top: 0%;  
-    }
     #name{
-        margin-top: 5%;
+        margin-top: 0%;
         color: #6D7172;
-        font-size: 40px;
+        font-size: 56px;
     }
     
     #title{
@@ -299,55 +259,24 @@
     }
     
     #stack{
-        font-size: 24px;
+        font-size: 22px;
         margin-top: 0%;
-    }
-    .icons{
-        grid-column: 3 / 4;
-        grid-row: 1 / 2;
-        margin-top: 0px;
-        padding-right: 10%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly; 
-        align-items: flex-end; 
     }
     .contactinfo{
         margin-top: 10%;
     }
     .icons{
-        margin-top: 15%;
+        margin-top: 0%;
     }
 }
 
 /* Extra Large and up (Wide Screen Desktops) */
 @media (min-width: 1200px) {
-    .bioInfo{
-        margin: 0 auto;
-        
-    }
-    #name{
-        font-size: 48px;
-    }
-    
-    #title{
-        font-size: 22px;
-        padding-top: 8%;
-    }
-    
-    #stack{
-        font-size: 22px;
-        padding-top: 8%;
-    }
-    .icons{
-        grid-column: 3 / 4;
-        grid-row: 1 / 2;
-        margin-top: 0px;
-        padding-right: 10%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: flex-end;
+    #bioImage{
+        width: auto;
+        max-height: 60vh;
+        opacity: 0.9;
+        border-radius: 5px;
     }
 }
 

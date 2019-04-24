@@ -54,14 +54,14 @@
     margin-top: 5%; 
     margin-bottom: 5%;   
 }
-.italics{
+.work-italics{
     font-family: nobel, sans-serif;
     font-style: normal;
     font-weight: 200;
     font-style: italic;
     font-size: 14px;
 }
-.dates{
+.work-dates{
     grid-column: 2 / 3;
     font-family: nobel, sans-serif;
     font-style: normal;
@@ -89,21 +89,37 @@
         top: 45px;
     }
     .job-title{
-        font-size: 26px;
+        font-size: 22px;
     }
-    .italics{
-        font-size: 24px;
+    .work-italics{
+        font-size: 20px;
     }
-    .dates{
-        font-size: 28px;
+    .work-dates{
+        font-size: 22px;
     }
     .desc{
-        font-size: 20px;
+        font-size: 16px;
     }
 }
 
 /* Medium and up (Tablets) */
 @media (min-width: 768px) {
+    #workH1 {
+        font-size: 65px;
+        top: 45px;
+    }
+    .job-title{
+        font-size: 26px;
+    }
+    .work-italics{
+        font-size: 24px;
+    }
+    .work-dates{
+        font-size: 28px;
+    }
+    .desc{
+        font-size: 20px;
+    }
 
 }
 
@@ -164,14 +180,14 @@
         margin-top: 5%; 
         margin-bottom: 5%;   
     }
-    .italics{
+    .work-italics{
         font-family: nobel, sans-serif;
         font-style: normal;
         font-weight: 200;
         font-style: italic;
         font-size: 24px;
     }
-    .dates{
+    .work-dates{
         grid-column: 2 / 3;
         font-family: nobel, sans-serif;
         font-style: normal;

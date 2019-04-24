@@ -86,10 +86,50 @@
 @media (min-width: 576px) {
     #educationH1 {
         font-size: 65px;
-        top: 45px;
+        top: 0px;
     }
     .school{
-        font-size: 26px;
+        font-size: 22px;
+    }
+    .italics{
+        font-size: 20px;
+    }
+    .dates{
+        font-size: 22px;
+    }
+    .school-desc{
+        font-size: 16px;
+    }
+}
+
+/* Medium and up (Tablets) */
+@media (min-width: 768px) {
+    #educationH1 {
+        font-size: 65px;
+        top: 0px;
+    }
+    .school{
+        font-size: 24px;
+    }
+    .italics{
+        font-size: 22px;
+    }
+    .dates{
+        font-size: 24px;
+    }
+    .school-desc{
+        font-size: 18px;
+    }
+}
+
+/* Large and up (Desktops) */
+@media (min-width: 992px) {
+    #educationH1 {
+        font-size: 65px;
+        top: 0px;
+    }
+    .school{
+        font-size: 28px;
     }
     .italics{
         font-size: 24px;
@@ -100,16 +140,6 @@
     .school-desc{
         font-size: 20px;
     }
-}
-
-/* Medium and up (Tablets) */
-@media (min-width: 768px) {
-
-}
-
-/* Large and up (Desktops) */
-@media (min-width: 992px) {
-    
 }
 
 /* Extra Large and up (Wide Screen Desktops) */
