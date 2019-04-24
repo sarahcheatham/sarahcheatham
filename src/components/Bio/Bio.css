@@ -243,7 +243,7 @@
     }
     #bioImage{
         width: auto;
-        height: 45vh;
+        max-height: 45vh;
         opacity: 0.9;
         border-radius: 5px;
     }
@@ -274,7 +274,7 @@
 @media (min-width: 1200px) {
     #bioImage{
         width: auto;
-        max-height: 60vh;
+        /* max-height: 60vh; */
         opacity: 0.9;
         border-radius: 5px;
     }
