@@ -11,7 +11,8 @@
     background-color: #E8EAEE;
 }
 #pinkBar{
-    background-color: #CD897B;
+    background-color: #E2928D;
+    /* background-color: #CD897B; */
     box-sizing: border-box;
     min-height: 50px;
     position: relative;
@@ -24,14 +25,14 @@
     font-family: quasimoda, sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 65px;
+    font-size: 48px;
     color: #110c16;
     text-align: right;
     z-index: 10;
     position: relative;
     line-height: 0.6em;
     pointer-events: none;
-    top: 45px;
+    top: 33px;
     margin-top: 0px;
     margin-right: 5%;
 }
@@ -47,7 +48,7 @@
     font-family: nobel, sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 16px;
     text-align: left;
     margin-left: 10%;
     margin-top: 5%; 
@@ -58,14 +59,14 @@
     font-style: normal;
     font-weight: 200;
     font-style: italic;
-    font-size: 18px;
+    font-size: 14px;
 }
 .dates{
     grid-column: 2 / 3;
     font-family: nobel, sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 5%; 
     text-align: right;
     margin-right: 10%;
@@ -78,12 +79,27 @@
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 0%;
-    font-size: 16px;
+    font-size: 12px;
     text-align: left;
 }
 /* Small and up (Landscape Phones) */
 @media (min-width: 576px) {
-
+    #workH1 {
+        font-size: 65px;
+        top: 45px;
+    }
+    .job-title{
+        font-size: 26px;
+    }
+    .italics{
+        font-size: 24px;
+    }
+    .dates{
+        font-size: 28px;
+    }
+    .desc{
+        font-size: 20px;
+    }
 }
 
 /* Medium and up (Tablets) */

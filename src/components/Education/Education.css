@@ -18,14 +18,16 @@
     font-family: quasimoda, sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 65px;
+    font-size: 48px;
     margin-top: 0px;
     margin-right: 5%;
     margin-bottom: 0px;
     padding-top: 5%;
 }
-#yellowBar {
-    background-color: #E2928D;
+#peachBar {
+    background-color: #CE7870;
+    /* background-color: #CD897B; */
+    /* background-color: #F4CABB; */
     box-sizing: border-box;
     min-height: 50px;
     position: relative;
@@ -45,7 +47,7 @@
     font-family: nobel, sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 16px;
     text-align: left;
     margin-left: 10%;
     margin-top: 5%; 
@@ -56,14 +58,14 @@
     font-style: normal;
     font-weight: 200;
     font-style: italic;
-    font-size: 18px;
+    font-size: 14px;
 }
 .dates{
     grid-column: 2 / 3;
     font-family: nobel, sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 5%; 
     text-align: right;
     margin-right: 10%;
@@ -77,6 +79,40 @@
     margin-right: 5%;
     margin-top: 0%;
     margin-bottom: 0%;
-    font-size: 16px;
+    font-size: 12px;
     text-align: left;
+}
+/* Small and up (Landscape Phones) */
+@media (min-width: 576px) {
+    #educationH1 {
+        font-size: 65px;
+        top: 45px;
+    }
+    .school{
+        font-size: 26px;
+    }
+    .italics{
+        font-size: 24px;
+    }
+    .dates{
+        font-size: 28px;
+    }
+    .school-desc{
+        font-size: 20px;
+    }
+}
+
+/* Medium and up (Tablets) */
+@media (min-width: 768px) {
+
+}
+
+/* Large and up (Desktops) */
+@media (min-width: 992px) {
+    
+}
+
+/* Extra Large and up (Wide Screen Desktops) */
+@media (min-width: 1200px) {
+
 }

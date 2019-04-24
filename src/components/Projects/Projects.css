@@ -26,7 +26,8 @@
     padding-top: 5%;
 }
 #yellowBar {
-    background-color: #E2928D;
+    background-color: #ECBCB0;
+    /* background-color: #E2928D; */
     box-sizing: border-box;
     min-height: 50px;
     position: relative;
@@ -50,7 +51,7 @@
     grid-template-columns: 1fr;
 }
 #arrayngeimg{
-    height: 35vh;
+    height: 31vh;
 }
 .arrayngeimg{
     grid-column: 1 / 2;
@@ -69,20 +70,20 @@
     font-family: nobel, sans-serif;
     font-style: normal;
     font-weight: 200; 
-    font-size: 28px;
+    font-size: 24px;
 }
 #arrayngeSubHeader{
     font-family: nobel, sans-serif;
     font-style: normal;
     font-weight: 100;
-    font-size: 20px;
+    font-size: 18px;
 }
 .arrayngeDesc{
     font-family: nobel, sans-serif;
     font-style: normal;
     font-weight: 100;
     margin-right: 10%;
-    font-size: 18px;
+    font-size: 14px;
     overflow-wrap: break-word;
     word-wrap: break-word;
     hyphens: auto;
@@ -94,7 +95,7 @@
     grid-template-columns: 1fr;
 }
 #jscheatsimg{
-    height: 35vh;
+    height: 30vh;
 }
 .jscheatsimg{
     grid-column: 1 / 2;
@@ -113,20 +114,20 @@
     font-family: nobel, sans-serif;
     font-style: normal;
     font-weight: 200; 
-    font-size: 28px;
+    font-size: 24px;
 }
 #jscheatsSubHeader{
     font-family: nobel, sans-serif;
     font-style: normal;
     font-weight: 100;
-    font-size: 20px;
+    font-size: 18px;
 }
 .jscheatsDesc{
     font-family: nobel, sans-serif;
     font-style: normal;
     font-weight: 100;
     margin-right: 10%;
-    font-size: 18px;
+    font-size: 14px;
 }
 .todolist{
     text-align: left;
@@ -135,7 +136,7 @@
     grid-template-columns: 1fr;
 }
 #todolistimg{
-    height: 45vh;
+    height: 38vh;
 }
 .todolistimg{
     grid-column: 1 / 2;
@@ -155,14 +156,14 @@
     font-family: nobel, sans-serif;
     font-style: normal;
     font-weight: 200; 
-    font-size: 28px;
+    font-size: 24px;
 }
 .todolistDesc{
     font-family: nobel, sans-serif;
     font-style: normal;
     font-weight: 100;
     margin-right: 10%;
-    font-size: 18px;
+    font-size: 14px;
 }
 .github-icon code{
     margin-left: 0px;
@@ -229,9 +230,7 @@ code{
     .todolistDesc{
         font-size: 20px;
     }
-    #projectsH1{
-        font-size: 65px;
-    }
+    
 }
 
 /* Large and up (Desktops) */

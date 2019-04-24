@@ -2,7 +2,7 @@
 .Bio{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 350px 150px;
+    grid-template-rows: 40% 45% 15%;
     padding-bottom: 0%;
     background-color: #FBF6F6;
     /* border-top: solid 50px #F9D1A0; */
@@ -15,8 +15,9 @@
 }
 .icons{
     margin-top: 5%;
+    margin-bottom: 10%;
     grid-column: 1 / 2;
-    grid-row: 2 / 3;
+    grid-row: 3 / 4;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;
@@ -29,8 +30,8 @@
     flex-direction: column;
     align-items: flex-start;
     margin-left: 10%;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 8%;
+    margin-bottom: 0%;
     color: #2D2C2B;
 }
 #name{
@@ -40,15 +41,15 @@
     font-family: voltage, sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 40px;
-    padding-bottom: 5%;
+    font-size: 48px;
+    margin-bottom: 0%;
 }
 #title{
     font-family: nobel, sans-serif;
     font-style: normal;
     font-weight: 100;
     font-size: 22px;
-    padding-bottom: 2%;
+    margin-bottom: 3%;
 }
 #stack{
     font-family: nobel, sans-serif;
@@ -59,25 +60,25 @@
 .contactinfo{
     display: grid;
     grid-template-columns: 300px;
-    grid-template-rows: 40px 35px 30px 30px;
+    grid-template-rows: 25% 25% 20% 20%;
     text-align: left;
     margin-left: 0px;
     margin-top: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 0%;
 }
 #contactinfoheader{
     font-family: nobel, sans-serif;
     font-weight: 300;
     font-style: italic;
-    font-size: 24px;
+    font-size: 32px;
     color: #6D7172;
     text-decoration: underline;
     text-decoration-style: wavy;
     text-decoration-color: #FC926A;
     /* text-decoration-color: #7FBAB7; */
     margin-top: 0px;
-    margin-bottom: 5%;
-    padding-bottom: 2%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
 }
 #email{
     font-family: nobel, sans-serif;
@@ -85,7 +86,7 @@
     font-weight: 100;
     font-size: 20px;
     margin-top: 0px;
-    padding-bottom: 5%;
+    padding-bottom: 0%;
 }
 #phone{
     font-family: nobel, sans-serif;
@@ -93,14 +94,14 @@
     font-weight: 100;
     font-size: 20px;
     margin-top: 0px; 
-    padding-bottom: 5%;
+    padding-bottom: 0%;
 }
 #resume{
     font-family: nobel, sans-serif;
     font-style: normal;
     font-weight: 100;
     font-size: 20px;
-    margin-top: 5%; 
+    margin-top: 3%; 
     padding-bottom: 5%;
 }
 
