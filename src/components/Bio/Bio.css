@@ -49,6 +49,7 @@
     font-style: normal;
     font-weight: 100;
     font-size: 22px;
+    margin-top: 3%;
     margin-bottom: 3%;
 }
 #stack{
@@ -56,6 +57,7 @@
     font-style: normal;
     font-weight: 100;
     font-size: 22px;
+    margin-top: 3%;
 }
 .contactinfo{
     display: grid;
