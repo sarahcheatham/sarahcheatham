@@ -20,7 +20,7 @@
     font-weight: 400;
     font-size: 48px;
     margin-top: 0px;
-    margin-right: 5%;
+    margin-right: 2%;
     margin-bottom: 0px;
     padding-top: 5%;
 }
@@ -46,8 +46,8 @@
     grid-column: 1 / 2;
     font-family: nobel, sans-serif;
     font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
+    font-weight: 200;
+    font-size: 20px;
     text-align: left;
     margin-left: 10%;
     margin-top: 5%; 
@@ -55,17 +55,17 @@
 }
 .italics{
     font-family: nobel, sans-serif;
-    font-style: normal;
+    /* font-style: normal; */
     font-weight: 200;
     font-style: italic;
-    font-size: 14px;
+    font-size: 16px;
 }
 .dates{
     grid-column: 2 / 3;
     font-family: nobel, sans-serif;
     font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
+    font-weight: 200;
+    font-size: 20px;
     margin-top: 5%; 
     text-align: right;
     margin-right: 10%;
@@ -79,7 +79,7 @@
     margin-right: 5%;
     margin-top: 0%;
     margin-bottom: 0%;
-    font-size: 12px;
+    font-size: 14px;
     text-align: left;
 }
 /* Small and up (Landscape Phones) */
@@ -87,6 +87,7 @@
     #educationH1 {
         font-size: 65px;
         top: 0px;
+        margin-right: 5%;
     }
     .school{
         font-size: 22px;

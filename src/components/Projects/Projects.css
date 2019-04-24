@@ -21,7 +21,7 @@
     font-weight: 400;
     font-size: 48px;
     margin-top: 0px;
-    margin-right: 5%;
+    margin-right: 2%;
     margin-bottom: 0px;
     padding-top: 5%;
 }
@@ -192,6 +192,7 @@ code{
     }
     #projectsH1{
         font-size: 65px;
+        margin-right: 5%;
     }
 }
 
