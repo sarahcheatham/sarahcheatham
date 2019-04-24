@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "ccbe19df294b9a6ba7d3",
-    "url": "/sarahcheatham/static/css/main.5aca0ed5.chunk.css"
+    "revision": "34feea6dc94808f69a6c",
+    "url": "/sarahcheatham/static/css/main.0ad13096.chunk.css"
   },
   {
-    "revision": "ccbe19df294b9a6ba7d3",
+    "revision": "34feea6dc94808f69a6c",
     "url": "/sarahcheatham/static/js/main.c7e1c7aa.chunk.js"
   },
   {
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/sarahcheatham/static/media/todolist.d7a449b0.png"
   },
   {
-    "revision": "a0498f104f2b872bde45ae0325f8bc0a",
+    "revision": "499a025339063836f0973071cf7e2de6",
     "url": "/sarahcheatham/index.html"
   }
 ];
