@@ -13,29 +13,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <Container>
-        <Row>
-          <Bio/>
-        </Row>
-        <Row>
-          <ProjectsHeader/>
-        </Row>
-        <Row>
-          <Projects/>
-        </Row>
-        <Row>
-          <WorkHeader/>
-        </Row>
-        <Row>
-          <Work/>
-        </Row>
-        <Row>
-          <EducationHeader/>
-        </Row>
-        <Row>
-          <Education/>
-        </Row>
-      </Container>
+        <Bio/>
+        <ProjectsHeader/>
+        <Projects/>
+        <WorkHeader/>
+        <Work/>
+        <EducationHeader/>
+        <Education/>
       </div>
     );
   }

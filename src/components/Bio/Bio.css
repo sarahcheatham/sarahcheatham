@@ -1,63 +1,35 @@
-/* Extra Small and up (Portrait Phones) */
 .Bio{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 40% 45% 15%;
-    padding-bottom: 0%;
-    background-color: #FBF6F6;
-    /* border-top: solid 50px #F9D1A0; */
+    /* background-color: #FBF6F6; */
 }
-#bioImage{
-    display: none;
-}
-.bioImageBackground{
-    display: none;
-}
+
 .bioInfo{
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: 10%;
-    margin-top: 8%;
-    margin-bottom: 0%;
-    color: #2D2C2B;
+    /* color: #2D2C2B; */
 }
 #name{
-    /* display: flex; */
-    color: #6D7172;
+    /* color: #6D7172; */
     /* text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080; */
     font-family: voltage, sans-serif;
     font-weight: 300;
     font-style: normal;
     font-size: 48px;
-    margin-bottom: 0%;
+}
+.name{
+    display: flex;
+    justify-content: center;
 }
 #title{
     font-family: nobel, sans-serif;
     font-style: normal;
     font-weight: 100;
     font-size: 22px;
-    margin-top: 0%;
-    margin-bottom: 0%;
 }
 #stack{
     font-family: nobel, sans-serif;
     font-style: normal;
     font-weight: 100;
     font-size: 22px;
-    margin-top: 2%;
 }
-.contactinfo{
-    display: grid;
-    grid-template-columns: 300px;
-    grid-template-rows: 25% 25% 20% 20%;
-    text-align: left;
-    margin-left: 0px;
-    margin-top: 10%;
-    margin-bottom: 0%;
-}
+
 #contactinfoheader{
     font-family: nobel, sans-serif;
     font-weight: 300;
@@ -66,220 +38,30 @@
     color: #6D7172;
     text-decoration: underline;
     text-decoration-style: wavy;
-    text-decoration-color: #FC926A;
-    /* text-decoration-color: #7FBAB7; */
-    margin-top: 0px;
-    margin-bottom: 0%;
-    padding-bottom: 0%;
+    /* text-decoration-color: #FC926A; */
 }
 #email{
     font-family: nobel, sans-serif;
     font-style: normal;
     font-weight: 100;
     font-size: 20px;
-    margin-top: 0px;
-    padding-bottom: 0%;
 }
 #phone{
     font-family: nobel, sans-serif;
     font-style: normal;
     font-weight: 100;
     font-size: 20px;
-    margin-top: 0px; 
-    padding-bottom: 0%;
 }
 #resume{
     font-family: nobel, sans-serif;
     font-style: normal;
     font-weight: 100;
     font-size: 20px;
-    margin-top: 3%; 
-    padding-bottom: 5%;
 }
 .icons{
-    margin-top: 0%;
-    margin-bottom: 10%;
-    grid-column: 1 / 2;
-    grid-row: 3 / 4;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column-reverse;
     justify-content: space-evenly;
     align-self: center;
 }
-
-/* Small and up (Landscape Phones) */
-@media (min-width: 576px) {
-    .Bio{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 45% 35% 20%;
-    }
-    .bioInfo{
-        margin: 0 auto;
-        margin-top: 5%;
-    }
-    #name{
-        font-size: 52px;
-        margin-bottom: 2%;
-    }
-    #title{
-        font-size: 24px;
-    }
-    #stack{
-        font-size: 22px;
-    }
-    .contactinfo{
-        display: grid;
-        grid-template-columns: 300px;
-        grid-template-rows: 25% 20% 20% 20%;
-        margin-top: 10%;
-    }
-    #contactinfoheader{
-        font-size: 32px;
-        margin-top: 0px;
-        margin-bottom: 0%;
-    }
-    #email{
-        font-size: 22px;
-        margin-top: 2%;
-        margin-bottom: 5%;
-    }
-    #phone{
-        font-size: 22px;
-        margin-top: 2%; 
-        margin-bottom: 5%;
-    }
-    #resume{
-        font-size: 22px;
-        margin-top: 5%; 
-        margin-bottom: 5%;
-    }
-    .icons{
-        margin-top: 5%;
-        margin-bottom: 0%;
-    }
-}
-
-/* Medium and up (Tablets) */
-@media (min-width: 768px) {
-    .Bio{
-        display: grid;
-        grid-template-columns: 40% 45% 15%;
-        grid-template-rows: 1fr;
-        padding-bottom: 0%;
-    }
-    #bioImage{
-        display: initial;
-        width: auto;
-        max-height: 38vh;
-        opacity: 0.85;
-        border-radius: 5px;
-    }
-    .bioImageBackground{
-        grid-column: 1 / 2;
-        grid-row: 1 / 2;
-        display: flex;
-        align-self: flex-start;
-        justify-content: center;
-        max-height: 38vh;
-        border-radius: 5px;
-        background-color: #FBF6F6;
-        margin-top: 20%;
-    }
-    .bioInfo{
-        grid-column: 2 / 3;
-        grid-row: 1 / 2;
-        margin-top: 10%;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-bottom: 5%;
-    }
-    #name{
-        margin-bottom: 0%;
-        font-size: 48px;
-    }
-    
-    #title{
-        font-size: 22px;
-        margin-top: 0%;
-    }
-    
-    #stack{
-        font-size: 22px;
-        margin-top: 0%;
-    }
-    .icons{
-        grid-column: 3 / 4;
-        grid-row: 1 / 2;
-        margin-top: 0%;
-        margin-right: 25%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-self: flex-end;
-    }
-    .contactinfo{
-        grid-template-rows: 25% 25% 25% 25%;
-        margin-top: 15%;
-    }
-    #resume{
-        padding-bottom: 0%;
-        margin-bottom: 5%;
-    }
-}
-
-/* Large and up (Desktops) */
-@media (min-width: 992px) {
-    .bioInfo{
-        margin-top: 10%;
-       
-    }
-    .bioImageBackground{
-        max-height: 45vh;
-        margin-left: 10%;
-        margin-right: 10%;
-        border-radius: 5px;
-        margin-top: 15%;
-    }
-    #bioImage{
-        width: auto;
-        max-height: 45vh;
-        opacity: 0.9;
-        border-radius: 5px;
-    }
-    #name{
-        margin-top: 0%;
-        color: #6D7172;
-        font-size: 56px;
-    }
-    
-    #title{
-        font-size: 24px;
-        margin-top: 0%;
-    }
-    
-    #stack{
-        font-size: 22px;
-        margin-top: 0%;
-    }
-    .contactinfo{
-        margin-top: 10%;
-    }
-    .icons{
-        margin-top: 0%;
-    }
-}
-
-/* Extra Large and up (Wide Screen Desktops) */
-@media (min-width: 1200px) {
-    #bioImage{
-        width: auto;
-        /* max-height: 60vh; */
-        opacity: 0.9;
-        border-radius: 5px;
-    }
-}
-
-
 
